@@ -15,7 +15,7 @@ final class ButtonThrottler {
     private let lock = NSLock()
     private let throttleInterval: TimeInterval
     
-    init(throttleInterval: TimeInterval = 0.5) {
+    private init(throttleInterval: TimeInterval = 0.5) {
         self.throttleInterval = throttleInterval
     }
     
